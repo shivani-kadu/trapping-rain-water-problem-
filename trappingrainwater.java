@@ -23,8 +23,7 @@ public class trappingrainwater {
          for(int i=0;i<n;i++){
             //water level = min(leftmax boudry ,right max boundry ); 
            int  waterLevel=Math.min(leftMax[i], rightMax[i]);
-         //iska use kitna pani 
-         //store hua ye dekne ke liy  kiya hai 
+         
 
            //water level = min(leftmax boudry ,right max boundry ); 
            trapppedWater+=waterLevel-height[i];
